@@ -613,4 +613,4 @@ function! ChangeSqlCase()
 "
 endfunction
 
-
+command! -nargs=0 ChangeSqlCase call ChangeSqlCase()
