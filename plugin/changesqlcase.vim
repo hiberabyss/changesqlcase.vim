@@ -74,7 +74,7 @@ function! ChangeSqlCase()
 "
 " \U\2\E/giec
 "
-:'<,'>s/\(\_^\|\W\)\@<=\(
+:'<,'>s/\%V\(\_^\|\W\)\@<=\(
 	\abort\|
 	\abs\|
 	\absolute\|
